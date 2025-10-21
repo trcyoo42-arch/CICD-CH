@@ -1,0 +1,13 @@
+{
+  "name": "bilbos-landingpage",
+  "version": "1.0.0",
+  "description": "Landing page Pondok Pesantren Bilbos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
+
