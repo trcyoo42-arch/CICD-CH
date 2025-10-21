@@ -2,14 +2,14 @@ name: Docker Build and Publish and Deploy to DeployAja (Private Repo)
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "chy" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "chy" ]
 
 env:
   REGISTRY: ghcr.io/YOUR_USERNAME/YOUR_REPO
   GH_REGISTRY: ghcr.io
-  IMAGE_NAME: your-app-name
+  IMAGE_NAME: cumpeng
   DOCKER_BUILDKIT: 1
 
 jobs:
