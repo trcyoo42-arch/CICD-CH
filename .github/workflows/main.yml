@@ -7,9 +7,9 @@ on:
     branches: [ "Chy" ]
 
 env:
-  REGISTRY: ghcr.io/YOUR_USERNAME/YOUR_REPO
+  REGISTRY: ghcr.io/trcyoo42-arch/CICD-CH
   GH_REGISTRY: ghcr.io
-  IMAGE_NAME: Cahyo
+  IMAGE_NAME: CICD-CH
   DOCKER_BUILDKIT: 1
 
 jobs:
